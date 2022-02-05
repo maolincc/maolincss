@@ -1,6 +1,11 @@
 @font-face {
     font-family: 'AWanLite';
-    src: url('./awan.ttf');
+    src: url('./awan.eot');
+    src:
+            url('./awan.eot') format('embedded-opentype'),
+            url('./awan.woff2') format('woff2'),
+            url('./awan.woff') format('woff'),
+            url('./awan.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
