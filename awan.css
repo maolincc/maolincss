@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'AWanLite';
+    src: url('./awan.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:not(i) {
+    font-family: "AWanLite";
+}
+
